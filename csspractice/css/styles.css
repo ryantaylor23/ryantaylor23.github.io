@@ -1,0 +1,25 @@
+/*Ryan Taylor 
+April 12, 2023*/
+header, footer {
+  background-color: yellowgreen;
+}
+
+p, ul, li {
+   font-size: 20px;
+}
+
+a:link {
+  color: darkmagenta
+}
+
+a:visited {
+  color: yellow
+}
+
+a:hover {
+  color: ghostwhite
+}
+
+a:active {
+  color: darkorange
+}
