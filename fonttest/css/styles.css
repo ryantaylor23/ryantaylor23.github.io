@@ -1,0 +1,13 @@
+/* Ryan Taylor 
+April 21, 2023*/
+
+@font-face {
+  font-family: 'greatvibes';
+  src: url(../font/greatvibes-regular-webfont.woff) format('woff'),
+  url(../font/greatvibes-regular-webfont.woff2) format('woff2');
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'greatvibes', 'Times New Roman', serif;
+}
