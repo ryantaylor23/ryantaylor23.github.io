@@ -1,0 +1,61 @@
+body {
+  background: rgb(74, 74, 85);
+  color: #F8F8FF;
+  font-size: 1.50rem;
+}
+
+strong {
+  color:#40e0d0;
+}
+
+u {
+  color: #40e0d0;
+}
+
+a:link {
+  color: #40e0d0;
+}
+
+a:visited {
+  color: #2fff8d;
+}
+
+a:hover {
+  color: rgba(182, 47, 255, 0.671);
+}
+
+a:active {
+  color: #F8F8FF;
+}
+
+a.email:link {
+  color: #40e0d0;
+}
+
+a.phone:link {
+  color: #40e0d0;
+}
+
+a.email:visited {
+  color: #2fff8d;
+}
+
+a.phone:visited {
+  color: #2fff8d;
+}
+
+a.email:hover {
+  color: rgba(182, 47, 255, 0.671);
+}
+
+a.phone:hover {
+  color: rgba(182, 47, 255, 0.671);
+}
+
+a.email:active {
+  color: #F8F8FF;
+}
+
+a.phone:active {
+  color: #F8F8FF;
+}
