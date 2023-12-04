@@ -1,0 +1,41 @@
+.parallax {
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bgimg-1 {
+    background-image: url("../images/gemstone.jpg");
+}
+.bgimg-2 {
+    background-image: url("../images/diamond-ring.jpg");
+    min-height: 400px;
+    min-width: 100%
+}
+.bgimg-3 {
+    background-image: url("../images/Emerald-Jewel.jpg");
+    min-height: 400px;
+    min-width: 100%
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: purple;
+  }
+  .caption span.border {
+    background-color:floralwhite;
+    color: purple;
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }

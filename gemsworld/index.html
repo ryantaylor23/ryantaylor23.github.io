@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gems Bootstrap Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+    <header class="container-fluid parallax bgimg-1 bg-secondary-subtle">
+      <nav class="navbar navbar-expand-md bg-danger-subtle">
+
+        <div class="container-fluid py-2">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gems">Gems</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+   </header>
+
+   <body class="bg-success-subtle">
+
+    <div class="parallax-img">
+      <div class="caption text-center">
+        <span class="border" id="welcome">Welcome to Gem World!</span>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 mb-5" id="about">
+      <h2 class="text-center">About Us</h2>
+        <h3 class="container text-center">
+          My wife and I are gem collectors in the Boise, Idaho area. We enjoy sharing our passion of 
+          gem collecting with others! Our small shop in downtown Boise has grown to be bigger than
+          we have expected! We thought that it was the right time to branch out and start sharing our passion with
+          the people of the world over our new website! Lets all start enjoying the Gems of the world together!
+        </h3>
+     </div>
+
+     <div class="bgimg-2"></div>
+
+      <div class="container mt-5" id="gems">
+        <h2 class="text-center">Gems for Sale!</h2>
+
+        <div class="row mt-4">
+          <div class="col-sm-4">
+            <h2 class="img-responsive text-center">Geode</h3>
+            <img class="img-fluid" src="images/Geode.jpg" alt="Geode-Picture">
+          </div>
+
+        <div class="col-sm-4">
+          <h2 class="img-responsive text-center">Emerald</h3>
+          <img class="img-fluid" src="images/Emerald.jpg" alt="Emerald-Picture">
+        </div>
+
+         <div class="col-sm-4">
+           <h2 class="img-responsive text-center">Diamond</h3>
+           <img class="img-fluid" src="images/diamond.jpg" alt="Diamond-Picture">
+         </div>
+        </div>
+    </div>
+ 
+    <div class="container mt-4" id="products">
+      <h2 class="text-center">Check out our Pricing and Healing Property!</h2>
+      <table class="table table-bordered table-danger mt-4">
+        <thead class="h3">
+          <tr>
+            <th>Gem</th>
+            <th>Price-Per-Gram</th>
+            <th>Healing Property</th>
+            <th>Order</th>
+          </tr>
+        </thead>
+        <tbody class="h4">
+          <tr>
+            <td>Geode</td>
+            <td>$9.99</td>
+            <td>Positivity</td>
+            <td>#</td>
+          </tr>
+          <tr>
+            <td>Emerald</td>
+            <td>$7.50</td>
+            <td>Heart Healing</td>
+            <td>#</td>
+          </tr>
+          <tr>
+            <td>Diamond</td>
+            <td>$12.50</td>
+            <td>Cleansing</td>
+            <td>#</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+   </div>
+
+   <div class="bgimg-3"></div>
+
+   <div class="container mt-5">
+      <h1 class="text-center" id="contact">Please Contact Us! <br>We would love to hear about 
+        your Gem finds!
+      </h1>
+      <form>
+        <div class="mb-3 mt-3">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="name@outlook.com" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="find">Gem Find:</label>
+          <input type="find" class="form-control" id="find" placeholder="Ruby" name="find">
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </form>
+   </div>
+
+   <footer class="container-fluid py-4 mt-4 bg-danger-subtle">
+      <p class="text-center">
+        Gem World | Established 2018<br>
+        Contact us by Email <a href="mailto:gemsworld@hotmail.com">gemsworld@hotmail.com</a><br>
+        or by Phone <a href="tel:+1208-123-4567">+1(208)-123-4567</a>
+      </p>
+   </footer>
+</body>
+</html>
