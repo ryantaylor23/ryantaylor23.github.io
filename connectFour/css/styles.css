@@ -1,0 +1,36 @@
+.grid {
+  color:black;
+  background: linear-gradient(darkorange, black);
+  border: 10px solid;
+  height: 470px;
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  padding-left: 30em;
+}
+
+h1 {
+  color:orange;
+}
+
+h2 {
+  color:crimson;
+}
+
+.grid div {
+  height: 78px;
+  width: 78px;
+}
+
+.player-one {
+  background-color: orange;
+  border-radius: 50px;
+}
+
+.player-two {
+  background-color: purple;
+  border-radius: 50px;
+}
